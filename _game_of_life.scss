@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#gol-container{
+  width:80vw;
+  max-width:600px;
+  margin: auto;
+}
+.gol-form{
+  bottom: 0px;
+  background:hsl(30, 30%, 54%);
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+.height-wrapper{
+  float:left;
+}
+.width-wrapper{
+  float:left;
+}
+.input-size{
+  height:auto;
+  width:50px;
+}
+.gol-apply{
+  color:hsl(119, 100%, 34%);
+}
+.gol-pause{
+  color:red;
+}
+.gol-reset{
+  height:100%;
+  
+}
+.gol-btn{
+  height:100%;
+  float:left;
+  outline: none;
+  border: none;
+  cursor:pointer;
+  border-radius:4%;
+  margin-left:4px;
+  background:hsl(30, 30%, 43%);
+}
+.gol-btn:hover{
+  background: hsl(189, 45%, 63%);
+}
+.outer{
+  display: table;
+  position: relative;
+  float:right;
+  height:30px;
+  width:70px;
+}
+.middle{
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner{
+  height:100%;
+  margin-right: 0;
+
+}
+.gen{
+  font-size:14px;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.generation{
+  background:hsl(189, 13%, 81%);
+  height:20px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  width:77px;
+  text-align: right;
+}
